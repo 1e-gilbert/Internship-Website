@@ -48,7 +48,7 @@ if (isset($_POST['signIn'])) {
 
         // Role-based access
         if ($row["role"] == "user") {
-            header("Location: http://localhost/website/about.php");
+            header("Location: http://Internship-Website/about.php");
         } else if ($row["role"] == "admin") {
             header("Location: http://localhost/website/admindashboard/admin/index.php");
         } else {

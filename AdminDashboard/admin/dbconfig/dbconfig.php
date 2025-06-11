@@ -2,4 +2,4 @@
 
 session_start();
 
-$connection = mysqli_connect("localhost", "root", "1234", "login");
+$connection = mysqli_connect("localhost", "root", '', "login");
